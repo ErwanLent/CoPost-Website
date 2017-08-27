@@ -1,0 +1,127 @@
+* {
+    font-family: 'Avenir Next';
+}
+
+body {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #BED0DA),
+        color-stop(1, #FEFEFF)
+    );
+    background-image: -o-linear-gradient(bottom, #BED0DA 0%, #FEFEFF 100%);
+    background-image: -moz-linear-gradient(bottom, #BED0DA 0%, #FEFEFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #BED0DA 0%, #FEFEFF 100%);
+    background-image: -ms-linear-gradient(bottom, #BED0DA 0%, #FEFEFF 100%);
+    background-image: linear-gradient(to bottom, #BED0DA 0%, #FEFEFF 100%);
+}
+
+.ui.large.top.fixed.menu.navbar {
+    padding: 12px;
+    box-shadow: 0 2px 33px rgba(0,0,0,.15);
+}
+
+.navbar.menu .logo {
+    height: 36px;
+    margin-top: 7px;
+}
+
+.navbar.ui.menu .item:before {
+    background: none;
+}
+
+.navbar.ui.menu .item {
+    font-size: 17px;
+    color: #AAAAAA;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 500px;
+    margin-top: 75px;
+}
+
+.hero .hero-text {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 40px;
+    max-width: 490px;
+    margin: auto;
+    letter-spacing: 5px;
+    word-spacing: 5px;    
+}
+
+.hero-box {
+    background-color: white;
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-box-text {
+    font-size: 22px;
+    max-width: 590px;
+    margin: auto;
+    color: #5E5E5E;
+}
+
+.hero-box .image-section .bus {
+    max-width: 700px;
+    padding-top: 50px;
+}
+
+section.full-width {
+    max-width: 100%;
+}
+
+.phone-section {
+    background-color: #7A848D;
+    height: 400px;
+    color: white;
+}
+
+.phone-container {
+    max-width: 1100px;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.phone-container h1 {
+    padding-top: 100px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    max-width: 325px;    
+}
+
+.phone-container p {
+    font-size: 21px;
+    max-width: 450px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);    
+    margin-top: -295px;
+    margin-left: 65%;
+}
+
+section.secure {
+    max-width: 1100px;
+    background-color: white;
+    height: 500px;
+
+}
