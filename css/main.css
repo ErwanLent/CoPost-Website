@@ -2,6 +2,10 @@
     font-family: 'Avenir Next';
 }
 
+html {
+    zoom: 0.9;
+}
+
 body {
     background-image: -webkit-gradient(
         linear,
@@ -184,4 +188,10 @@ footer img {
 
 .going-container h2 {
     max-width: 400px;
+}
+
+@media (max-width: 1400px) {
+    footer img {
+        width: 120%;
+    }
 }
