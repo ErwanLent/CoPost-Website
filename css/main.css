@@ -70,7 +70,7 @@ section {
 .hero-box {
     background-color: white;
     height: 550px;
-    width: 1100px;
+    max-width: 1100px;
     margin: auto;
     padding: 50px;
     text-align: center;
@@ -89,6 +89,7 @@ section {
 .hero-box .image-section .bus {
     max-width: 700px;
     padding-top: 50px;
+    width: 100%;
 }
 
 section.full-width {
@@ -193,5 +194,35 @@ footer img {
 @media (max-width: 1400px) {
     footer img {
         width: 120%;
+    }
+}
+
+@media (max-width: 790px) {
+    .phone {
+        display: none;
+    }
+}
+
+@media (max-width: 395px) {
+    .phone-container p {
+        width: 90%;
+    }
+
+    .phone-container {
+        padding: 15px;
+    }    
+
+    section.full-width {
+        height: 550px;
+    }
+}
+
+@media (max-width: 650px) { 
+    .going-container {
+        padding-left: 25px;
+    }
+
+    .going-container p {
+        margin: 0;
     }
 }
