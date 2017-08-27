@@ -4,6 +4,7 @@
 
 html {
     zoom: 0.9;
+    overflow-x: hidden;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 .ui.large.top.fixed.menu.navbar {
     padding: 12px;
     box-shadow: 0 2px 33px rgba(0,0,0,.15);
+    width: 100%;
 }
 
 .navbar.menu .logo {
